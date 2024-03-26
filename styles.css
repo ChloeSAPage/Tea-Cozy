@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica, sans-serif;
+    opacity: 0.9;
+}
+
+/* Header */
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+li {
+    display: inline;
+    text-decoration: underline;
+}
+
+/* Our Mission */
+
+.our-mission {
+    background-image: url("images/img-mission-background.webp");
+    text-align: center;
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.our-mission div{
+    background-color: black;
+    z-index: 10;
+    align-items: flex-start;
+}
+
