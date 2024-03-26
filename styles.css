@@ -29,13 +29,13 @@ li {
 /* Our Mission */
 
 section {
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 
 .our-mission {
     background-image: url("images/img-mission-background.webp");
-    text-align: center;
     height: 700px;
     width: 1200px;
     display: flex;
@@ -58,7 +58,6 @@ img {
 
 .tea-month {
     width: 1000px;
-    text-align: center;
 }
 
 .img-container {
@@ -70,4 +69,32 @@ img {
 
 .img-container div p {
     margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Locations */
+
+.locations {
+    height: 500px;
+    width: 1200px;
+    background-image: url("images/img-locations-background.webp");
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px
+}
+
+.card {
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    line-height: 2;
+}
+
+/* Footer */
+
+footer {
+    margin-left: 20px;
 }
