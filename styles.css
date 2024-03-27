@@ -78,12 +78,15 @@ img {
     height: 500px;
     width: 1200px;
     background-image: url("images/img-locations-background.webp");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card-container {
     display: flex;
     justify-content: center;
-    gap: 40px
+    gap: 40px;
 }
 
 .card {
@@ -91,6 +94,7 @@ img {
     background-color: black;
     opacity: 1;
     line-height: 2;
+    margin-top: 15px;
 }
 
 /* Footer */
